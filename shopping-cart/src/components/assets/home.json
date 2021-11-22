@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "img": "../images/greytshirt.jpg",
+        "title": "Grey Tshirt",
+        "price": "$15,00"
+    },
+    {
+        "id":2,
+        "img": "../images/blackhoddie.jpg",
+        "title": "Black Hoddie",
+        "price": "$16,00"
+    }
+]

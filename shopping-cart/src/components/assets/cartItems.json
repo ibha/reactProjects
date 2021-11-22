@@ -1,0 +1,19 @@
+[
+    {
+        "id":1,
+        "img": "../images/greytshirt.jpg",
+        "title": "Grey Tshirt",
+        "price": "$15,00",
+        "quantity": 0,
+        "inCart": false
+    },
+    {
+        "id":2,
+        "img": "../images/blackhoddie.jpg",
+        "title": "Black Hoddie",
+        "price": "$16,00",
+        "quantity": 0,
+        "inCart": false
+
+    }
+]
