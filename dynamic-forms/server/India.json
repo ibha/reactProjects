@@ -1,0 +1,35 @@
+[{
+            "type": "string",
+            "name": "First Name",
+            "displayLabel": "First Name",
+            "validation": {
+                "required": true
+            }
+        },
+        {
+            "type": "string",
+            "name": "Last Name",
+            "displayLabel": "Last Name",
+            "validation": {
+                "required": true
+            }
+        },
+        {
+            "type": "options",
+            "name": "Gender",
+            "displayLabel": "Gender",
+            "options": [
+                {
+                    "name": "Male", 
+                    "value":"Male",
+                    "displayLabel": "M"
+                },                 {
+                    "name": "Female", 
+                    "value": "Female",
+                    "displayLabel": "M"
+                }
+            ]
+
+            
+        }
+        ]

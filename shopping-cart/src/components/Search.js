@@ -8,6 +8,7 @@ function Search() {
     const dispatch = useDispatch();
 
     const handleSearchDebounced = useMemo(() => debounce(function () {
+        
         console.log("handleSearchDebounced");
         dispatch({type:SEARCH_PRODUCTS,payload:searchTerm})
       }, 500),[searchTerm]);

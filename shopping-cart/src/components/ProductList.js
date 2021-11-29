@@ -25,12 +25,13 @@ const ProductList = (props) => {
                    
 
                     return (
-                        <div className="image" key={item.id} onClick={showProductDetails(item)}>
-                                        
-                            <img src={item.img} alt="item.title"></img>
-                            <h3>{item.title}</h3>
-                            <h3>{item.price}</h3>
-                            <a className="addToCart cart4" onClick={()=>dispatch({type: "ADD_PRODUCT_BASKET",payload: {item}})} href="#" >Add to Cart</a>
+                        <div className="image" key={item.id} onClick={()=>showProductDetails(item)}>
+                            <div class="image">           
+                                <img src={item.img} alt="item.title"></img>
+                                <h3>{item.title}</h3>
+                                <h3>{item.price}</h3>
+                                <a className="addToCart cart4" onClick={()=>dispatch({type: "ADD_PRODUCT_BASKET",payload: {item}})} href="#" >Add to Cart</a>
+                            </div> 
                         </div>
                     );
             })
